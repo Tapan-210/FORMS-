@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+     <fieldset><form action="" style="background-color:aqua;">
+    <h1 align="center"> Student Registration Form </h1>
+    <hr>
+    <label for=""> Firstname</label><br>
+    <input type="text" placeholder="First name" name="Firstname" style="width: 100%;" pattern="[a-zA-Z]{3,8}" required><br><br>
+    <label for=""> Middlename:</label><br>
+    <input type="text" placeholder="Middlename" name="Middlename" style="width: 100%;" pattern="[a-zA-Z0-9]{3,8}" required><br><br>
+    <label for=""> Lastname</label><br>
+    <input type="text" placeholder="Lastname" name="Lastname" style="width: 100%;" pattern="[a-zA-Z0-9]{3,8}" required><br><br>
+    
+    <label for="">Course:</label>
+    <select name="" id="" >
+    <option value="">Course</option>
+    <option value="">JSS</option>
+    </select><br> <br> 
+    <label for="">Gender:</label><br>
+    <input type="radio" id="Male" name="Gender">
+    <label for="Male">Male</label>
+    <input type="radio" id="Female" name="Gender">
+    <label for="Female">Female</label>
+    <input type="radio" id="Other" name="Gender">
+    <label for="Other">Other</label><BR></BR>
+    <label for="">Phone:</label><br>
+    <input type="number" placeholder="+91" style="width:100%;"><br><br>
+    <input type="text" placeholder="Phone no" style="width: 100%;" pattern="[0-9]{10}" required><br><br>
+    <label for="">Current Address:</label><br>
+    <textarea name="" id="" cols="100" rows="10" style="width: 100%;"> current address</textarea><br><br>
+    <label for="">Email</label><br>
+    <input type="email" placeholder="Enter Email" style="width: 100%;" pattern="[a-zA-Z0-9]+@[a-z]+.+[a-z]{2,3}$"><br><br>
+    <label for="">Password</label><br>
+    <input type="password" placeholder="Enter Password" style="width: 100%;"><br><br>
+    <label for="">Re-type Password</label><br>
+    <input type="password" placeholder="Retype password" style="width: 100%;"><br><br>
+    <input type="submit" value="Register" style="width: 100%;">
+
+
+   </form> </fieldset>
+</body>
+</html>

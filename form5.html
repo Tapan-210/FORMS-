@@ -1,0 +1,166 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 5</title>
+</head>
+<body>
+    
+    <h3>Student Registration Form Using Table In HTML </h3>
+    <label for="">First Name</label>
+    <input type="text" placeholder="Tapan">(Max 50 Characters Allowed) <br><br>
+    <label for="">Last Name</label>
+    <input type="text" placeholder="Joshi">(Max 50 Characters Allowed) <br><br>
+    <label for="">Email ID</label>
+    <input type="email" placeholder="Taps1590@gmail.com"><br><br>
+    <label for="">Mobile  Number</label>
+    <input type="number" placeholder="95349xxxxx">(10 Digits Allowed) <br><br>
+    <label for="">Gender</label>
+    <input type="radio" name="Gender" id="Male">
+    <label for="Male">Male</label>
+    <input type="radio" name="Gender" id="Female">
+    <label for="Female">Female</label><br><br>
+    <label for="">Date of Birth(DOB)</label>
+    <input type="date"> <br><br>
+    <label for="">Address</label>
+    <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+    <label for="">City</label>
+    <input type="text" placeholder="Ahemdabad">(Max 50 Characters Allowed) <br><br>
+    <label for="">Pin Code</label>
+    <input type="number" placeholder="580034">(MAX 6 Characters Allowed) <br><br>
+    <label for="">Country</label>
+    <input type="text" placeholder="India"> <br><br>
+    <label for="">hobbies</label>
+    <input type="checkbox" name="Drawing">Drawing
+    <input type="checkbox" name="Singing">Singing
+    <input type="checkbox" name="Dancing">Dancing
+    <input type="checkbox" name="Sketching">Sketching 
+    <input type="checkbox" name="others">others
+    <input type="text" placeholder="">(Max 50 Characters Allowed) <br><br>
+    <label for="">Qualification</label> <br>
+    <input type="checkbox"> High School(10th) <br>
+    <input type="checkbox"> higher School(12th) <br>
+    <input type="checkbox"> Graduation(bachelors) <br>
+    <input type="checkbox">Post Graduation(Masters) <br>
+    <input type="checkbox">Phd <br><br>
+    <label for="">Course applied for:</label> <br>
+    <input type="checkbox">BCA(Bachelors of Computers applications) <br>
+    <input type="checkbox">B.com(Bachelors of Commerce) <br>
+    <input type="checkbox">B.SC(Bachelors of Science) <br>
+    <input type="checkbox">B.A(Bachelors of Arts) <br>
+    <input type="checkbox">MCA(Master of Computer applications) <br>
+    <input type="checkbox">M.COM(Master of Commerce) <br>
+    <input type="checkbox">M.SC(Master of Science) <br>
+    <input type="checkbox">MA(Master of Arts) <br><br>
+    <input type="submit">
+    <input type="reset">
+    
+
+
+    
+</body>
+</html> -->
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color:darkcyan;">
+
+    
+        <form>
+            <h1 align="center" style="background-color: tomato;"> Student Registration Form Using Table in HTML</h1>
+            <hr>
+            <fieldset>
+            <table  cellspacing="0px" cellpadding="5px" align="center" style="background-color:rebeccapurple;">
+                <tr>
+                   
+                    <td align="left">First Name:</td>
+                    <td> <input type="First Name" placeholder="Enter your First name" maxlength="50"  pattern="[a-z]{3,8}" required>
+                   (Max 50 Characters Allowed)</td> <br><br> 
+                </tr>
+                <tr>
+                    <td align="left">Last Name:</td>
+                    <td><input type="text" placeholder="Enter your Last name" maxlength="50"  pattern="[A-Z]+[A-Za-z]{3,6}" required>
+                    &nbsp;(Max 50 Characters Allowed) </td><br><br>
+                </tr>
+                <tr>
+                    <td align="left">Email:</td>
+                    <td><input type="email" placeholder="Enter your email"  pattern="[a-zA-Z0-9]+@[a-z]+.+[a-z]{2,3}$" required></td><br><br>
+                </tr>
+                <tr>
+                    <td align="left">Mobile Number:</td>
+                    <td> <input type="text" placeholder="Enter your Number" pattern="[0-9]{10}" maxlength="10" required>
+                    &nbsp;(10 Digits Allowed) </td><br><br>
+                </tr>
+                <tr>
+                    <td align="left"><b>Gender:</b></td>
+                  <td>  <input type="radio" name="Gender" value="Male">male 
+                    <input type="radio" name="Gender" value="Female">Female </td></tr>
+                    <tr> 
+                        <td align="left">Date of birth (DOB)</td>
+                        <td><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td align="left">Address:</td>
+                        <td><textarea name="Address" id="Address" cols="30" rows="10"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td align="left">City:</td>
+                        <td><input type="text" placeholder="Enter your City" value="Bangalore" maxlength="50">&nbsp;&nbsp;(Max 50 Characters Allowed)</td>
+                    </tr>
+                     <tr>
+                        <td align="left">Pin code:</td>
+                        <td><input type="text" placeholder="Enter your pin code" value="560068" maxlength="6">&nbsp;&nbsp;(Max 6 Numbers Allowed)</td>
+                     </tr>   
+                     <tr>
+                        <td align="left">State:</td>
+                        <td><input type="text" placeholder="Enter your State" value="karnataka"  maxlength="50">&nbsp;&nbsp;(Max 50 Characters Allowed)</td>
+                     </tr>
+                     <tr>
+                        <td align="left">Country:</td>
+                        <td><input type="text" placeholder="India"></td>
+                     </tr>
+                     <tr>
+                        <td align="left">hobbies:</td>
+                        <td><input type="checkbox" name="Drawing">Drawing
+                            <input type="checkbox" name="Singing">Singing
+                            <input type="checkbox" name="Dancing">Dancing
+                            <input type="checkbox" name="Sketching">Sketching <br> 
+                            <input type="checkbox" name="others">others
+                            <input type="text" placeholder="" maxlength="50">(Max 50 Characters Allowed)</td>
+                     </tr>
+                    <tr>
+                        <td align="left">Qualification:</td>
+                        <td><input type="checkbox"> High School(10th) <br>
+                            <input type="checkbox"> higher School(12th) <br>
+                            <input type="checkbox"> Graduation(bachelors) <br>
+                            <input type="checkbox">Post Graduation(Masters) <br>
+                            <input type="checkbox">Phd </td>
+                    </tr>
+                    <tr>
+                        <td align="left">Course applied for:</td>
+                        <td><input type="checkbox">BCA(Bachelors of Computers applications) <br>
+                            <input type="checkbox">B.com(Bachelors of Commerce) <br>
+                            <input type="checkbox">B.SC(Bachelors of Science) <br>
+                            <input type="checkbox">B.A(Bachelors of Arts) <br>
+                            <input type="checkbox">MCA(Master of Computer applications) <br>
+                            <input type="checkbox">M.COM(Master of Commerce) <br>
+                            <input type="checkbox">M.SC(Master of Science) <br>
+                            <input type="checkbox">MA(Master of Arts) <br><br>
+                            <input type="submit">
+                            <input type="reset">
+                            </td>
+                    </tr>
+            </table>
+        </fieldset>
+            </form>
+    </body>
+
+</html>
